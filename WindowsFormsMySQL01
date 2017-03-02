@@ -36,7 +36,6 @@ namespace WindowsFormsMySQL01
 
             connection = new MySqlConnection(connectionString);
         }
-
         // Abrir a conecção à Ligação à Base de Dados
         private bool OpenConnection()
         {
@@ -91,5 +90,5 @@ namespace WindowsFormsMySQL01
                 return Count;
             }
         }
-	}
+    }
 }
